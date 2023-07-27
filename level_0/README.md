@@ -17,9 +17,15 @@ Dans ce dossier, vous apprendrez les concepts suivants :
 
 ## Comment utiliser ce dossier
 
-Il suffit de suivre le fichier [Exercices: Bases de Dart](./exercices.md).
+1. **Installer Dart SDK :** Pour écrire et exécuter des programmes Dart, vous devez installer le Dart SDK. Vous pouvez le télécharger à partir du site officiel de Dart (https://dart.dev/get-dart).
 
-Pour vérifier ce que vous avez fait et comprendre, vous pouvez jeter un coup d'oeil au fichier [Corrections: Bases de Dart](./corrections.md)
+1. **Choisir un éditeur de code :** Vous pouvez écrire du code Dart dans n'importe quel éditeur de texte, mais nous vous recommandons d'utiliser un éditeur de code comme Visual Studio Code (VS Code) ou IntelliJ IDEA qui supporte Dart et fournit des fonctionnalités comme la coloration syntaxique et l'autocomplétion de code.
+
+1. **Récupérer et lancer les tests :** Commençons par cloner le repository via la commande `git clone https://github.com/b-fontaine/initiation_flutter` et se mettre sur le dossier `level_0/exercices`
+
+1. **Exécuter les tests Dart :** Pour exécuter les tests, lancez la commande `dart test -r github` et concentrez vous sur la dernière ligne du résultat `::error::0 tests passed, 8 failed.`. Cela représente vos résultat (ici, aucun test ne fonctionne).
+   
+1. **Corriger les tests :** Commencez à éditer les fichiers `*_test.dart` dans l'ordre, corrigez, executez de nouveau les tests et recommencez. Une fois que vous aurez le résultat `0 failed`, vous pourrez vous féliciter puisque vous maitriserez les bases de `dart`.
 
 ## Aller plus loin
 
